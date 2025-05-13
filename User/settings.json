@@ -44,5 +44,10 @@
 	"breadcrumbs.enabled": true,
 	"editor.minimap.enabled": false,
 	"editor.renderWhitespace": "selection",
-	"window.zoomLevel": 0
+	"window.zoomLevel": 0,
+
+	// Git configurations
+	"git.confirmSync": false
+
+	// Unorganized
 }
