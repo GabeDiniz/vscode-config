@@ -1,6 +1,6 @@
 # vscode-config
 
-My vscode 
+My vscode
 
 ---
 
@@ -21,6 +21,7 @@ vscode-config/
 
 # 📄 Notes
 
-- Create system link (Windows): `mklink /D "%APPDATA%\Code\User" "C:\Users\<username>\vscode-config\User"`
+- Create system link for the entire User folder (Windows): `mklink /D "%APPDATA%\Code\User" "C:\Users\<username>\vscode-config\User"`
+- Create system link for settings file (Windows): `mklink "%APPDATA%\Code\User\settings.json" "C:\Users\<username>\vscode-config\User\settings.json"`
 - User config commonly stored here: `%APPDATA%/Code/User`
 - `~/.vscode` - usually used for workspace settings (not global user config)
