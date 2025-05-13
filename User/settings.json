@@ -1,0 +1,48 @@
+{
+	// Theme
+	"workbench.colorTheme": "Default Dark+",
+	"workbench.iconTheme": "material-icon-theme",
+	"editor.fontSize": 12,
+
+	// Tab behavior
+	"editor.tabSize": 4,
+	"editor.tabCompletion": "on",
+
+	// Prettier Tab formatting
+	"prettier.useTabs": true,
+	"prettier.tabWidth": 4,
+	"prettier.endOfLine": "auto",
+
+	// Biome.js formatting
+	"editor.defaultFormatter": "biomejs.biome",
+	"notebook.defaultFormatter": "biomejs.biome",
+	"editor.formatOnSave": true,
+
+	// Optional: highlight errors/warnings inline
+	"editor.codeActionsOnSave": {
+		"source.fixAll": "always",
+		"source.organizeImports": "always"
+	},
+
+	// Files
+	"files.trimTrailingWhitespace": true,
+	"files.insertFinalNewline": true,
+	"files.autoSave": "onFocusChange",
+
+	// Explorer sorting
+	"explorer.sortOrder": "filesFirst",
+
+	// Terminal
+	"terminal.integrated.fontSize": 14,
+	"terminal.integrated.cursorBlinking": true,
+
+	// Extensions
+	"extensions.autoUpdate": true,
+	"extensions.ignoreRecommendations": false,
+
+	// Misc UX
+	"breadcrumbs.enabled": true,
+	"editor.minimap.enabled": false,
+	"editor.renderWhitespace": "all",
+	"window.zoomLevel": 0
+}
