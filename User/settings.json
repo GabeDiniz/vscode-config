@@ -43,6 +43,6 @@
 	// Misc UX
 	"breadcrumbs.enabled": true,
 	"editor.minimap.enabled": false,
-	"editor.renderWhitespace": "all",
+	"editor.renderWhitespace": "selection",
 	"window.zoomLevel": 0
 }
