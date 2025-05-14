@@ -3,11 +3,20 @@
 	"workbench.colorTheme": "Default Dark+",
 	"workbench.iconTheme": "material-icon-theme",
 	"editor.fontSize": 12,
+	"editor.wordWrap": "on", // testing, maybe switch to wordWrapColumn
+	// "editor.wordWrapColumn": 80,
 
 	// Tab behavior
 	"editor.tabSize": 4,
 	"editor.tabCompletion": "on",
 
+	// File specific settings
+	"[plaintext]": {
+		"editor.wordWrap": "off"
+	},
+	"[csv]": {
+		"editor.wordWrap": "off"
+	},
 	// Prettier Tab formatting
 	"prettier.useTabs": true,
 	"prettier.tabWidth": 4,
@@ -18,7 +27,7 @@
 	"notebook.defaultFormatter": "biomejs.biome",
 	"editor.formatOnSave": true,
 
-	// Optional: highlight errors/warnings inline
+	// Highlight errors/warnings inline
 	"editor.codeActionsOnSave": {
 		"source.fixAll": "always",
 		"source.organizeImports": "always"
