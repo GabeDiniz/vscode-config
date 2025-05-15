@@ -1,63 +1,66 @@
 {
-	// Theme
+	// Theme & UI
 	"workbench.colorTheme": "Default Dark+",
 	"workbench.iconTheme": "material-icon-theme",
+	"window.titleBarStyle": "custom",
+	"window.zoomLevel": 0,
+
+	// Editor UI Enhancements
+	"editor.cursorBlinking": "phase",
+	"editor.cursorSmoothCaretAnimation": "on",
 	"editor.fontSize": 12,
+	"editor.inlineSuggest.enabled": true,
+	"editor.minimap.enabled": true,
+	"editor.minimap.renderCharacters": false,
+	"editor.quickSuggestionsDelay": 50,
+	"editor.renderWhitespace": "selection",
+	"editor.snippetSuggestions": "top",
+	"editor.suggest.snippetsPreventQuickSuggestions": false,
 	"editor.wordWrap": "on", // testing, maybe switch to wordWrapColumn
 	// "editor.wordWrapColumn": 80,
+	"breadcrumbs.enabled": true,
 
-	// Tab behavior
+	// Tab Behavior
 	"editor.tabSize": 4,
 	"editor.tabCompletion": "on",
 
-	// File specific settings
-	"[plaintext]": {
-		"editor.wordWrap": "off"
-	},
-	"[csv]": {
-		"editor.wordWrap": "off"
-	},
-	// Prettier Tab formatting
-	"prettier.useTabs": true,
-	"prettier.tabWidth": 4,
-	"prettier.endOfLine": "auto",
-
-	// Biome.js formatting
+	// Formatter Configs
 	"editor.defaultFormatter": "biomejs.biome",
-	"notebook.defaultFormatter": "biomejs.biome",
 	"editor.formatOnSave": true,
+	"notebook.defaultFormatter": "biomejs.biome",
 
-	// Highlight errors/warnings inline
+	// Code Actions
 	"editor.codeActionsOnSave": {
 		"source.fixAll": "always",
 		"source.organizeImports": "always"
 	},
 
-	// Files
-	"files.trimTrailingWhitespace": true,
-	"files.insertFinalNewline": true,
-	"files.autoSave": "onFocusChange",
+	// Prettier
+	"prettier.endOfLine": "auto",
+	"prettier.tabWidth": 4,
+	"prettier.useTabs": true,
 
-	// Explorer sorting
-	"explorer.sortOrder": "filesFirst",
+	// File-Type Specific Settings
+	"[csv]": {
+		"editor.wordWrap": "off"
+	},
+	"[plaintext]": {
+		"editor.wordWrap": "off"
+	},
+
+	// File Handling
+	"files.autoSave": "onFocusChange",
+	"files.insertFinalNewline": true,
+	"files.trimTrailingWhitespace": true,
+
+	// Git
+	"git.confirmSync": false,
 
 	// Terminal
-	"terminal.integrated.fontSize": 14,
 	"terminal.integrated.cursorBlinking": true,
+	"terminal.integrated.fontSize": 14,
 
 	// Extensions
 	"extensions.autoUpdate": true,
-	"extensions.ignoreRecommendations": false,
-
-	// Misc UX
-	"breadcrumbs.enabled": true,
-	"editor.minimap.enabled": true,
-	"editor.minimap.renderCharacters": false,
-	"editor.renderWhitespace": "selection",
-	"window.zoomLevel": 0,
-
-	// Git configurations
-	"git.confirmSync": false
-
-	// Unorganized
+	"extensions.ignoreRecommendations": false
 }
