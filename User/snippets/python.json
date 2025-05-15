@@ -1,0 +1,61 @@
+{
+    "Formatted Print": {
+        "prefix": "fprint",
+        "body": [
+            "print(f\"${1:variable}: {${1:variable}}\")"
+        ],
+        "description": "Formatted print statement"
+    },
+    "Main check": {
+    "prefix": "mn",
+    "body": [
+      "if __name__ == \"__main__\":",
+      "    $0"
+    ],
+    "description": "Python entry point"
+  },
+  "Function": {
+    "prefix": "defn",
+    "body": [
+      "def $1($2):",
+      "    \"\"\"$3\"\"\"",
+      "    $0"
+    ],
+    "description": "Function definition with docstring"
+  },
+  "For loop": {
+    "prefix": "forin",
+    "body": [
+      "for $1 in $2:",
+      "    $0"
+    ],
+    "description": "For loop"
+  },
+  "Class": {
+    "prefix": "class",
+    "body": [
+      "class $1:",
+      "    def __init__(self, $2):",
+      "        $0"
+    ],
+    "description": "Class definition"
+  },
+  "Try/Except": {
+    "prefix": "try",
+    "body": [
+      "try:",
+      "    $1",
+      "except $2 as e:",
+      "    print(f\"Error: {e}\")"
+    ],
+    "description": "Try/Except block"
+  },
+  "Import OS & SYS": {
+    "prefix": "impsys",
+    "body": [
+      "import os",
+      "import sys"
+    ],
+    "description": "Import os and sys"
+  }
+}
