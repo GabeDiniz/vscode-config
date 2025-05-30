@@ -1,0 +1,45 @@
+[
+  // Toggle Terminal
+  {
+    "key": "ctrl+`",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+
+  // Duplicate Line
+  {
+    "key": "ctrl+d",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus"
+  },
+
+  // Format Document
+  {
+    "key": "ctrl+alt+f",
+    "command": "editor.action.formatDocument"
+  },
+
+  // Show Outline (Symbols in file)
+  {
+    "key": "ctrl+shift+o",
+    "command": "workbench.action.gotoSymbol"
+  },
+
+  // Git: Stage All Changes
+  {
+    "key": "ctrl+alt+s",
+    "command": "git.stageAll"
+  },
+
+  // Git: Commit
+  {
+    "key": "ctrl+alt+c",
+    "command": "git.commit"
+  },
+
+  // Markdown: Toggle Preview
+  {
+    "key": "ctrl+shift+v",
+    "command": "markdown.showPreview"
+  },
+
+]
