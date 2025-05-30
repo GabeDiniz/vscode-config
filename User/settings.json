@@ -31,8 +31,8 @@
 
 	// Code Actions
 	"editor.codeActionsOnSave": {
-		// "source.fixAll": "always",
-		"source.organizeImports": "always"
+		"source.fixAll": "always",
+		// "source.organizeImports": "always" # removes unused imports
 	},
 
 	// Prettier
