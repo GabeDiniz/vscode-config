@@ -1,6 +1,6 @@
 # vscode-config
 
-My vscode
+My vscode config related files, extensions list, and installation scripts.
 
 ---
 
@@ -15,7 +15,7 @@ vscode-config/
 │   │   ├── javascript.json
 │   │   └── python.json
 │   └── extensions.txt
-├── install.sh (optional)
+├── install.sh
 ├── README.md
 ```
 
